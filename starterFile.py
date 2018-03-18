@@ -31,6 +31,7 @@ class player(object):
         self.slideCount = 0
         self.jumpCount = 0
         self.runCount = 0
+        self.slideUp = False
 
     def draw(self, win):
         if self.jumping:
@@ -41,14 +42,16 @@ class player(object):
                 self.jumpCount = 0
                 self.jumping = False
                 self.runCount = 0
-        elif self.sliding:
+        elif self.sliding or self.slideUp:
             if self.slideCount < 20:
                 self.y += 1
             elif self.slideCount == 80:
                 self.y -= 19
+                self.sliding = False
+                self.slideUp = True
             if self.slideCount >= 110:
                 self.slideCount = 0
-                self.sliding = False
+                self.slideUp = False
                 self.runCount = 0
             win.blit(self.slide[self.slideCount//10], (self.x,self.y))
             self.slideCount += 1
