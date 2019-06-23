@@ -1,4 +1,5 @@
-# side_scroller
-This is the property of Tech With Tim.
+# Side Scroller
 
-Contact me if you would like to use this code commercially. For educational and non-commercial use ONLY.
+This is the code base for the side scroller tutorial videos posted on my YouTube channel. 
+
+You can check out the tutorial videos here: https://www.youtube.com/watch?v=PjgLeP0G5Yw&t=53s
