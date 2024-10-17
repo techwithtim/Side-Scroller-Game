@@ -8,15 +8,6 @@ You can check out the tutorial videos here: https://www.youtube.com/watch?v=PjgL
 - Python 3.x
 - pygame
 
-# Run in Gitpod
-
-You can also run Sudoku-GUI-Solver in Gitpod, a free online dev environment for GitHub:
-
-If you're intersted in a paid subscription with GitPod use the coupon code: TECHWITHTIM19
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/techwithtim/Side-Scroller-Game/blob/master/main.py)
-
-
 # 💻 Launch Your Software Development Career Today!  
 
 🎓 **No degree? No problem!** My program equips you with everything you need to break into tech and land an entry-level software development role.  
